@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/darkbg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:background="@drawable/title"
+            android:layout_width="225dp"
+            android:layout_height="65dp"/>
+
+        <Space
+            android:layout_width="165dp"
+            android:layout_height="10dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <LinearLayout
+        android:padding="12dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/cardshape"
+        android:layout_width="350dp"
+        android:layout_height="450dp">
+
+
+
+        <LinearLayout
+            android:background="@drawable/cardtop"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+               android:layout_margin="20dp"
+                android:gravity="center"
+                android:id="@+id/activityTV"
+                android:textSize="30dp"
+                android:text="Task"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:gravity="left"
+                android:textSize="20dp"
+                android:text="Link"
+                android:textColor="@color/Gray"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:gravity="left"
+            android:id="@+id/linkTV"
+            android:textSize="15dp"
+            android:text=""
+            android:textColor="@color/MediumBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+        <TextView
+            android:gravity="left"
+            android:textSize="20dp"
+            android:text="Type"
+            android:textColor="@color/Gray"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/typeTV"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+        <TextView
+            android:textSize="20dp"
+            android:text="Participants"
+            android:textColor="@color/Gray"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/participantsTV"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+        <!--        <TextView-->
+<!--            android:id="@+id/priceTV"-->
+<!--            android:textSize="20dp"-->
+<!--            android:text="Activity"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/keyTV"-->
+<!--            android:textSize="20dp"-->
+<!--            android:text="Activity"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/accessibilityTV"-->
+<!--            android:textSize="20dp"-->
+<!--            android:text="Activity"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/shuffleButton"
+            android:foreground="@drawable/ref"
+            android:background="@drawable/ref"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
